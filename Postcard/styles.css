@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+
+* {
+    border: 1px dashed red;
+    min-height: 10px;
+}
+
+p {
+    background-color: blue;
+}
+
+.header {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
