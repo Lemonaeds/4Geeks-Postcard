@@ -2,18 +2,76 @@ body {
     background-color: black;
 }
 
-* {
-    border: 1px dashed red;
-    min-height: 10px;
+*{
+    font-family: "Times New Roman";
+    font-style: bold;
 }
 
-p {
-    background-color: blue;
+.postcard {
+    background-color: white;
+    width: 400px;
+    height: 320px;
+    margin: auto;
 }
 
 .header {
-    background-color: white;
-    width: 400px;
-    height: 300px;
-    margin: auto;
+    display: flex;
 }
+
+.header img {
+    padding-top: 10px;
+    padding-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.header h1{
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 350px;
+    margin: 0px;
+}
+
+.body {
+    display: flex;
+}
+
+.body-left{
+    padding-left: 10px;
+    margin: 0px;
+    width: 240px;
+   
+}
+
+.body-right{
+    width: 160px;
+    padding: 10px;
+}
+
+input {
+    font-family: "Protest Guerrilla", sans-serif;
+    width: 160px;
+    padding-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+p {
+    font-size: 18px;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+.footer{
+    text-align: center;
+}
+
+button {
+    background-color: rgb(154, 152, 152);
+    padding: 2%;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 16px;
+}
+
