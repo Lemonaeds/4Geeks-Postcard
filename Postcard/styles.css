@@ -3,14 +3,13 @@ body {
 }
 
 *{
-    font-family: "Times New Roman";
-    font-style: bold;
+    font-family: "SUSE";
 }
 
 .postcard {
     background-color: white;
     width: 400px;
-    height: 320px;
+    height: 300px;
     margin: auto;
 }
 
@@ -49,7 +48,6 @@ body {
 }
 
 input {
-    font-family: "Protest Guerrilla", sans-serif;
     width: 160px;
     padding-top: 10px;
     font-size: 16px;
@@ -58,8 +56,8 @@ input {
 }
 
 p {
-    font-size: 18px;
-    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 16px;
+    
 }
 
 .footer{
@@ -71,7 +69,7 @@ button {
     padding: 2%;
     border: none;
     border-bottom: 1px solid grey;
-    font-family: "Protest Guerrilla", sans-serif;
     font-size: 16px;
+    font-weight: bold;
 }
 
